@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/* reset --------------------------------------- */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+/* helper ---------------------------------- */
+
+
+
+/* modules: header ------------------------------- */
+
+.header {
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-foot, .header-btn-xmark {
+    display: none;
+}
+
+.header-ul {
+    display: flex;
+}
